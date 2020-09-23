@@ -1,0 +1,18 @@
+.core
+{
+	max-width: 25%;
+	background-color: grey;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+h1
+{
+	color: white;
+}
+
+p
+{
+	color: white;
+	margin-top: 5%;
+}
