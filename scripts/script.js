@@ -70,6 +70,7 @@ function updateProgression(param)
 
 function room_1()
 {
+	console.log("Room 1");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -123,6 +124,7 @@ function room_1()
 
 function room_2()
 {
+	console.log("Room 2");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -163,6 +165,7 @@ function room_2()
 
 function room_3()
 {
+	console.log("Room 3");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -235,6 +238,7 @@ function room_3()
 
 function room_4()
 {
+	console.log("Room 4");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -282,6 +286,7 @@ function room_4()
 
 function room_5()
 {
+	console.log("Room 5");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -314,6 +319,7 @@ function room_5()
 
 function room_6()
 {
+	console.log("Room 6");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -393,6 +399,7 @@ function room_6()
 
 function room_7()
 {
+	console.log("Room 7");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -428,6 +435,7 @@ function room_7()
 
 function room_right_1()
 {
+	console.log("Room Right Path 1");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -501,6 +509,7 @@ function room_right_1()
 
 function room_right_2()
 {
+	console.log("Room Right Path 2");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -518,6 +527,7 @@ function room_right_2()
 
 function room_left_1()
 {
+	console.log("Room Left Path 1");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -554,6 +564,7 @@ function room_left_1()
 
 function room_left_2()
 {
+	console.log("Room Left Path 2");
 	setTimeout(function()
 	{
 		if(hp>0)
@@ -634,6 +645,7 @@ function room_left_2()
 
 function room_left_3()
 {
+	console.log("Room Left Path 3");
 	//document.getElementById("core").style.backgroundImage = "url('images/treasure.jpg')";
 	setTimeout(function()
 	{
