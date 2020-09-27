@@ -440,7 +440,7 @@ function room_right_1()
 	{
 		if(hp>0)
 		{
-			if(trollHP > 0)
+			if(trollHP >= 0)
 			{	
 				if(roomR1Iteration == 0)
 				{
@@ -656,14 +656,14 @@ function room_left_3()
 
 function checkDeath()
 {
-	if(hp>0)
+	if(hp<=0)
 	{		
-		return false;
+		return true;
 	}
 	else
 	{
 		death();
-		return true;
+		return false;
 	}
 }
 
