@@ -656,14 +656,14 @@ function room_left_3()
 
 function checkDeath()
 {
-	if(hp<=0)
+	if(hp>0)
 	{		
-		return true;
+		return false;
 	}
 	else
 	{
 		death();
-		return false;
+		return true;
 	}
 }
 
